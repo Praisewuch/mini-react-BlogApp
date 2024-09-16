@@ -1,0 +1,94 @@
+li{
+  list-style-type: none;
+}
+
+.li1,.li2,.li3{
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 4%;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  font-family: arial;
+  font-size: 15px;
+  background-color: black;
+}
+
+.Header{
+  display:flex;
+  justify-content: center;
+  font-size: 20px;
+  color: black;
+  font-family: arial;
+  background-color: cyan;
+  width: 100%;
+}
+
+.search-row{
+  display:flex;
+  justify-content: center;
+  gap: 43%;
+  background-color: grey;
+  color: white;
+}
+
+.posts-div{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-row > div > li{
+  display:flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+.list{
+  display:flex;
+}
+
+.new-post-box{
+  display:flex;
+  flex-direction: column;
+}
+
+.copy{
+  display:flex;
+  justify-content: center;
+  background-color: cyan;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+}
+
+.post-box{
+  margin: 10px;
+  width: 120%;
+  padding: 6%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.big{
+  text-decoration: underline;
+}
+
+.small{
+  margin: 2px;
+  font-size: 10px;
+  margin-left: 10px;
+  color: grey;
+}
+
+.post-box > li{
+  padding: 2px;
+}
+
+.del-btn{
+  background-color: red;
+  color: white;
+}

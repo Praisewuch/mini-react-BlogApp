@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "5",
+      "date": "Aug 22nd, Thu , 2024  23:51 PM",
+      "title": "and now another",
+      "text": ""
+    },
+    {
+      "id": "9",
+      "date": "Aug 22nd, Thu , 2024  23:57 PM",
+      "title": "some thing",
+      "text": "this is my new query"
+    },
+    {
+      "id": "11",
+      "date": "Sep 9th, Mon , 2024  22:45 PM",
+      "title": "Dog",
+      "text": "A dog is a really cool animal"
+    }
+  ]
+}
